@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    background: linear-gradient(to right, red, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0 0 60px rgba(255, 0, 0, 0.552);
+    animation: animate 1s infinite alternate;
+}
+
+@keyframes animate {
+    100%{
+        text-shadow: 0 0 60px
+        rgba(21, 0, 255, 0.457);
+    }
+}
